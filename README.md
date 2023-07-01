@@ -91,10 +91,6 @@ Apologies for the misunderstanding. Here's the corrected usage section:
 
    - Press `I` to start the exporting process and generate the processed images.
 
-
-```
-
-Please note that I've updated the key instructions based on your requirements.
 ---
 
 ## Before and After
