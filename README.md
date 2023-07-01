@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshot.png" alt="Instagramizer Screenshot">
+  <img src="imgs/screenshot.png" alt="Instagramizer Screenshot">
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@
 2. Run the Instagramizer program:
 
    ```shell
-   python instagramizer.py
+   python CUI.py
    ```
 
 3. Use the following keys to navigate through the modes:
@@ -88,13 +88,13 @@
 <p align="center">
   <strong>Before</strong>
   <br>
-  <img src="before_image.jpg" alt="Before Image" width="500">
+  <img src="imgs/before_image.jpg" alt="Before Image" width="500">
 </p>
 
 <p align="center">
   <strong>After</strong>
   <br>
-  <img src="after_image.jpg" alt="After Image" width="500">
+  <img src="imgs/after_image.jpg" alt="After Image" width="500">
 </p>
 
 ---

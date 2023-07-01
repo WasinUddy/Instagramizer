@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 
-from functions import *
+from utils.functions import *
 
 class Mode_0:
     """
