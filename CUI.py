@@ -1,9 +1,9 @@
 import curses
 from curses import wrapper
 
-from settings import *
-from functions import *
-from modes import Mode_0, Mode_1, Mode_2
+from utils.settings import *
+from utils.functions import *
+from utils.modes import Mode_0, Mode_1, Mode_2
 
 
 class CUI:
