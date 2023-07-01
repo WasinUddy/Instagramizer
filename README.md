@@ -115,5 +115,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 <p align="center">
-  Developed with ❤️ by [Your Name]
+  Developed with ❤️ by @WasinUddy
 </p>
