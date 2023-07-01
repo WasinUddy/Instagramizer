@@ -35,7 +35,7 @@
 1. Clone the Instagramizer repository:
 
    ```shell
-   git clone https://github.com/your_username/instagramizer.git
+   git clone https://github.com/WasinUddy/instagramizer.git
    ```
 
 2. Navigate to the project directory:
