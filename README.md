@@ -103,6 +103,7 @@
 
 1. Support responsive terminal size
 2. Implement threading for faster export
+3. Console Based File Browser
 
 Feel free to contribute by submitting a pull request to the project repository.
 
