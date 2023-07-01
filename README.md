@@ -54,7 +54,7 @@
 
 Apologies for the misunderstanding. Here's the corrected usage section:
 
-```
+
 ## Usage
 
 1. Navigate to the project directory:
