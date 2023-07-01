@@ -52,6 +52,9 @@
 
 ---
 
+Apologies for the misunderstanding. Here's the corrected usage section:
+
+```
 ## Usage
 
 1. Navigate to the project directory:
@@ -68,19 +71,30 @@
 
 3. Use the following keys to navigate through the modes:
 
+   - `←` and `→` arrow keys: Select different modes.
    - `↑` and `↓` arrow keys: Scroll through image files in the Import mode.
-   - `A`: Activate the Select mode.
-   - `I`: Interact with the current mode.
+   - `A`: Activate the selected mode as the active mode.
+   - `I`: Interact with the current active mode.
    - `Q`: Quit the program.
 
-4. In the Import mode, use the `↑` and `↓` arrow keys to scroll through image files and select an image to import.
+4. Inside the Import mode:
 
-5. In the Select mode, no function is available.
+   - Press `I` to import the selected file.
+   - Use the `↑` and `↓` arrow keys to scroll through image files.
+   
 
-6. In the Export mode, press `I` to start the export process and generate the processed images.
+6. Inside the Color Selection mode:
 
-7. The program will display the number of imported images, the selected color, and the export status in the interface.
+   - Use the `↑` and `↓` arrow keys to select the background color.
 
+7. Inside the Export mode:
+
+   - Press `I` to start the exporting process and generate the processed images.
+
+
+```
+
+Please note that I've updated the key instructions based on your requirements.
 ---
 
 ## Before and After
