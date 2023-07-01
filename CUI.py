@@ -32,7 +32,7 @@ class CUI:
 
         self.Mode_0_data = [[]]     # [Images]
         self.Mode_1_data = [0]      # [Active Color]
-        self.Mode_2_data = [False]  # [Done, photos, color]
+        self.Mode_2_data = [False]  # [Done]
 
         self.modes = [
             Mode_0(self.Mode_0_data),
@@ -96,6 +96,8 @@ class CUI:
         while True:
             key = self.stdscr.getch()
 
+            
+
             '''
             Handle Key Presses
             '''
@@ -142,7 +144,7 @@ class CUI:
             # Dynamic Text Labels 
             # How many images are imported?
             self.stdscr.addstr(3, 2, f"Imported Images: {len(self.modes[0].data[0])}", curses.color_pair(7))
-            for img in self.modes[0].data[0]:
+            for img in photos_limiter(self.modes[0].data[0], self.h-7):
                 self.stdscr.addstr(5 + self.modes[0].data[0].index(img), 2, name_limit(self.w//3-5, img), curses.color_pair(7))
 
             # What color is selected?

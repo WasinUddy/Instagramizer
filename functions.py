@@ -43,3 +43,10 @@ def add_border(image_path, export_folder, bg_color):
     new_image.save(export_path)
     
     print("Exported: " + export_path)
+
+
+def photos_limiter(photos, limit):
+    if len(photos) > limit:
+        return photos[:limit]
+    else:
+        return photos

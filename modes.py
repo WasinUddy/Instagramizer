@@ -17,10 +17,12 @@ class Mode_0:
         self.data[0] = filedialog.askopenfilenames(initialdir = "/", title = "Select Images", filetypes = (("jpeg files","*.jpg"),("all files","*.*")))
 
     def up(self):
-        pass
+        # Scroll self.data[0] 
+        self.data[0] = self.data[0][1:] + self.data[0][:1]
 
     def down(self):
-        pass
+        # Scroll self.data[0] 
+        self.data[0] = self.data[0][-1:] + self.data[0][:-1]
 
 
 class Mode_1:
@@ -58,10 +60,10 @@ class Mode_2:
 
     def interact(self, photos, color):
         export_folder = filedialog.askdirectory(initialdir = "/", title = "Select Export Folder")
-        print(photos)
-        print(color)
         for i in range(len(photos)):
             add_border(photos[i], export_folder, self.COLORS[color])
+        self.data[0] = True
+
     def up(self):
         pass
 
